@@ -26,3 +26,6 @@ echo "Get HPA in minikube"
 kubectl get hpa
 echo ""
 
+echo "Get describe of HPA in minikube"
+kubectl describe hpa scaletestapp
+echo ""
